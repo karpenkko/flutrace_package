@@ -1,7 +1,7 @@
 name: flutrace_package
-description: "A new Flutter project."
+description: "A Flutter logging service for structured event tracking with customizable metadata."
 version: 0.0.1
-homepage:
+homepage: https://github.com/karpenkko/flutrace_package
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
