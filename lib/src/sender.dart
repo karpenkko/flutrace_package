@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:fimber/fimber.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
@@ -15,7 +16,7 @@ class LogSender {
       );
     } catch (e) {
       if (kDebugMode) {
-        print('Error sending log: $e');
+        Fimber.e('Error sending log: $e');
       }
     }
   }

@@ -32,6 +32,7 @@ dependencies:
     sdk: flutter
   flutrace_package:
     path: ../
+  flutter_card_swiper: ^7.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -59,6 +60,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/font/Inter-Regular.ttf
+        - asset: assets/font/Inter-Regular.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -76,11 +82,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+#   fonts:
+#     - family: Schyler
+#       fonts:
+#         - asset: fonts/Schyler-Regular.ttf
+#         - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

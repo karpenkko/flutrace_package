@@ -54,7 +54,7 @@ class Flutrace{
     };
 
     final endpoint = _config!.customEndpoint ??
-        Uri.parse('https://your-default-log-server.com/logs');
+        Uri.parse('http://10.0.2.2:8000/logs');
 
     LogSender.send(endpoint: endpoint, payload: payload);
   }
